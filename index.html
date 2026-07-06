@@ -9,76 +9,53 @@ description: >
      Hello! 🍃 metatheory.space is a group that works at the foundations of cognitive science. We are interested in the intersections of psychological and computational neurocognitive theorising with critical artificial intelligence.
 ---
 
-        <div id="header"></div>
+<div id="header"></div>
 
-          <div class="content" id="top-content">
-
-          <div class="container"> 
-               <div class="row">
-                    <div class="col-12">
-                    <h1><a href="#top"><span id="meta">metatheory</span><span id="space">.space</span></a></h1>
-                    </div>
-               </div>
-               <div class="row">
-
-               <div class="col-12">
-                    {% capture about %}{% include about.md %}{% endcapture %}
-                    {{ about | markdownify }}
-               </div>
-
-               </div>
-          </div>
-          </div>
+<div class="content" id="top-content">
+<div class="container"> 
+     <div class="row">
+     <div class="col-12">
+          <h1><a href="#top"><span id="meta">metatheory</span><span id="space">.space</span></a></h1>
+     </div>
+     </div>
+     <div class="row">
+     <div class="col-12">
+          {% capture about %}{% include about.md %}{% endcapture %}
+          {{ about | markdownify }}
+     </div>
+     </div>
+</div>
+</div>
           
-          <div class="divider"></div>
+<div class="divider"></div>
 
-          <div class="content">
+<div class="content">
+<div class="container"> 
+     {% include people.html %}
+</div>
+</div>
+     
+<div class="divider"></div>
 
-          <div class="container"> 
+<div class="content">
+<div class="container"> 
+     {% include research.html %}
+</div>
+</div>
+     
+<div class="divider"></div>
 
-
-
-               <!-- <div class="row is-horizontal-align"> -->
-               <!-- <div class="col-6 images-flex"> -->
-                    <!-- <img src="images/gdj-psychology-5872032.svg" class="hide-md hide-sm hide-xs"> -->
-
-               <!-- </div> -->
-               <!-- </div> -->
-
-
-               {% include people.html %}
-
-                         </div>
-          </div>
-          
-          <div class="divider"></div>
-
-          <div class="content">
-
-          <div class="container"> 
-               {% include research.html %}
-          </div>
-          </div>
-          
-          <div class="divider"></div>
-
-          <div class="content">
-
-          <div class="container"> 
-               {% include publications.html %}
-          </div>
-          </div>
-          
-          <div class="divider"></div>
-
-          <div class="content">
-
-          <div class="container"> 
-               {% comment %}
-               {% include readings.html %}{% endcomment %}
-
-               {% include license.html %}
+<div class="content">
+<div class="container"> 
+     {% include publications.html %}
+</div>
 </div>
 
+<div class="divider"></div>
 
+<div class="content">
+<div class="container"> 
+     {% comment %}{% include readings.html %}{% endcomment %}
+     {% include license.html %}
+</div>
 </div>
