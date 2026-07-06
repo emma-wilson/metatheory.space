@@ -2,7 +2,7 @@
 
 Hello! 🍃 **metatheory.space** is a group that works at the foundations of *cognitive science*.
 We are interested in the intersections of the study of cognition, especially psychological and computational neurocognitive theorising, and *[critical artificial intelligence](https://olivia.science/ai)* with a focus on metatheoretical considerations at play in this vast interdisciplinary landscape.
-We explore questions such as:
+We [explore questions](#research) such as:
 - How do we **build theory** in cognitive science?
 - What does **taking *computationalism* seriously** imply?
 - How do we **use formal models** to reason about cognition?

@@ -8,21 +8,24 @@
 <div class="row">
 <div class="col-12">
     <p>Some core themes of our research with relevant readings are found here.
-      Also to help understand our perspective, here are a main reading for each question mentioned above:
+      Also to help understand our perspective, here are some readings for each question mentioned above:
     </p>
   <ul>
-  <li>How do we <strong>build theory</strong> in cognitive science?
-    <div class="questions">{% bibliography --query @*[key = guest2024makes] %}</div>
-  </li>
-  <li>What does <strong>taking <em>computationalism</em> seriously</strong> imply?</li>
-      <div class="questions">{% bibliography --query @*[key = guestmartin2025are] %}</div>
+  <li class="list-questions">How do we build theory in cognitive science?</li>
 
-  <li>How do we <strong>use formal models</strong> to reason about cognition?</li>
-      <div class="questions">{% bibliography --query @*[key ~= guest2026models ] %}</div>
-      <!-- <div class="questions">{% bibliography --query @*[key = guest2026modelschapter] %}</div> -->
+    <div class="questions">{% bibliography --query @*[key = guest2024makes] %}{% bibliography --query @*[key = guestmartin2024metatheory] %}</div>
 
-  <li>What happens when these <strong>ideas radiate outwards</strong> from cognitive science?</li>
-        <div class="questions">{% bibliography --query @*[key = guest2026does] %}</div>
+  <li class="list-questions">What does taking computationalism seriously imply?</li>
+      <div class="questions">{% bibliography --query @*[key = guestmartin2025are] %}{% bibliography --query @*[key = guest2025modern] %}</div>
+
+  <li class="list-questions">How do we use formal models to reason about cognition?</li>
+      <div class="questions">{% bibliography --query @*[key ~= guest2026models ] %}
+      </div>
+
+  <li class="list-questions">What happens when these ideas radiate outwards from cognitive science?</li>
+        <div class="questions">{% bibliography --query @*[key = guest2026does] %}
+          {% bibliography --query @*[key = guest2026understanding] %}
+        </div>
 
 </ul>
   </div>
